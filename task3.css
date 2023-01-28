@@ -2,8 +2,8 @@
     text-align: center;
     margin: auto;
     color: rgb(151, 48, 147);
-    padding: 50px;
-    font-size: 35px;
+    padding: 40px;
+    font-size: 30px;
     
 }
 .guessing-game{
@@ -15,7 +15,7 @@
     border-radius: .6rem;
     text-align: center;
     margin: auto;
-    margin: 15px;
+    margin: 10px;
     margin-left: 470px;
     
 }
@@ -33,7 +33,7 @@
     
     
 }
-.text :focus{
+.guessing-game input .text:focus{
     color:rgb(151, 48, 147) ;
 }
 button{
@@ -67,9 +67,15 @@ button{
     width: 50px;
     height: 35px;
     border:.01rem solid rgba(0,0,0,.1);
+    padding: 0;
+    margin: 0;
+    color:rgb(151, 48, 147) ;
+    text-align: center;
+    
   
 }
 #answer{
     color:rgb(151, 48, 147) ;
     background-color:rgba(151, 48, 147,.1) ;  
+    background-size:contain;
 }
