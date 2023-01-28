@@ -1,0 +1,75 @@
+.h1{
+    text-align: center;
+    margin: auto;
+    color: rgb(151, 48, 147);
+    padding: 50px;
+    font-size: 35px;
+    
+}
+.guessing-game{
+    padding: 2.5rem;
+    width: 500px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border:.01rem solid rgba(0,0,0,.1);
+    background: rgb(246, 245, 245);
+    border-radius: .6rem;
+    text-align: center;
+    margin: auto;
+    margin: 15px;
+    margin-left: 470px;
+    
+}
+
+.text{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 270px;
+    height: 30px;
+    border:.01rem solid rgba(0,0,0,.1);
+    margin-bottom: 15px;
+    margin-top: 5px;
+    
+    
+    
+}
+.text :focus{
+    color:rgb(151, 48, 147) ;
+}
+button{
+    
+    background-color:rgb(151, 48, 147) ;
+    width: 260px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.p{
+    color:rgb(151, 48, 147) ;
+    font-size: 25px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-around;
+    width: 50px;
+    height: 35px;
+    border:.01rem solid rgba(0,0,0,.1);
+  
+}
+#answer{
+    color:rgb(151, 48, 147) ;
+    background-color:rgba(151, 48, 147,.1) ;  
+}
